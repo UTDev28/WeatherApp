@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KRWeatherApp.Android", "KRWeatherApp\KRWeatherApp.Android\KRWeatherApp.Android.csproj", "{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KRWeatherApp", "KRWeatherApp\KRWeatherApp\KRWeatherApp.csproj", "{E1CF39D3-BAFB-4404-A123-38B61E5C269D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA5EB3E-FD62-4F41-A9DA-7702E47EF8D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E1CF39D3-BAFB-4404-A123-38B61E5C269D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CF39D3-BAFB-4404-A123-38B61E5C269D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CF39D3-BAFB-4404-A123-38B61E5C269D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1CF39D3-BAFB-4404-A123-38B61E5C269D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CF39D3-BAFB-4404-A123-38B61E5C269D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CF39D3-BAFB-4404-A123-38B61E5C269D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B11ABF-943E-441A-B809-AB5EDFBBEB96}
+	EndGlobalSection
+EndGlobal

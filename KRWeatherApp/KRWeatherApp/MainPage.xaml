@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KRWeatherApp.MainPage">
+
+    <!--<Grid x:Name="MainGrid" BackgroundColor="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>-->
+    <StackLayout x:Name="AppBackground" BackgroundColor="GhostWhite">
+        <Label x:Name="LblCity"
+               Text="City"
+               FontSize="50"
+               TextColor="white"
+               BackgroundColor="DimGray"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+
+        <Label x:Name="LblTemp"
+               Text="Temp"
+               TextColor="Black"
+               FontSize="30"
+               Grid.Row="1"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+
+        <Label x:Name="LblHighLow"
+               Text="High/Low"
+               TextColor="Black"
+               FontSize="30"
+               Grid.Row="1"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+
+        <Label x:Name="LblWeatherCondition"
+               Text="Condition"
+               FontSize="30"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="center"/>
+
+        <Label x:Name="LblWind"
+               Text="wind"
+               FontSize="30"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+
+        <!-- Add Labels for additional details feature -->
+        <Label x:Name="LblPressure"
+               Text="Pressure"
+               FontSize="30"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="start"/>
+
+        <Label x:Name="LblHumitity"
+               Text="Humitity"
+               FontSize="30"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Start"/>
+
+        <Label x:Name="LblDescription"
+               Text="Description"
+               FontSize="30"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Start"/>
+
+        <!--Set the source of the image control to show the weather condition icon-->
+        <Image x:Name = "ImgWeather"/>
+
+        <Entry x:Name="EntCity"
+               FontSize="30"
+               Placeholder="Enter City"
+               PlaceholderColor="Black"
+               TextColor="Black"/>
+
+
+        <Entry x:Name="EntZip"
+               FontSize="30"
+               Placeholder="Zipcode"
+               PlaceholderColor="Black"
+               TextColor="Black"/>
+
+        <Button x:Name="BtnShowWeatherDetails"
+                Text="Show Weather Details"
+                FontSize="30"
+                BackgroundColor="DimGray"
+                TextColor="White"
+                CornerRadius="30"
+                Margin="10"
+                Clicked="BtnShowWeatherDetails_Clicked"/>
+
+        <!-- Convert F° to C° -->
+        <Button x:Name="BtnConversion"
+                Text="F° to C°"
+                FontSize="30"
+                BackgroundColor="DimGray"
+                TextColor="White"
+                CornerRadius="30"
+                Margin="5"
+                Clicked="BtnConversion_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
